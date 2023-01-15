@@ -20,20 +20,20 @@
   ],
   "costom-element-remove":[
     {
-      "target":"stackoverflow.com",
+      "target":"www.tribunnews.com/seleb/gosipi",
       "element-remove-selector":[
         ".js-dismissable-hero",
         ".lazy-loading"
       ],
       "replace-string":[
         {
-          "target":"https://stackoverflow.com",
+          "target":"https://www.tribunnews.com/seleb/gosipi",
           "replace":"${nameWeb}"
         }
       ]
     },
     {
-      "target":"m.tribunnews.com",
+      "target":"www.tribunnews.com/seleb/gosipi",
       "element-remove-selector":[
         ".baca",
         ".op-interactive",
