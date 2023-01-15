@@ -1,8 +1,8 @@
 {
-  "name-web":"STACKOVERFLOW MASKODING",
-  "author":"MASKODING",
+  "name-web":"HOT GOSSIP TERKINI",
+  "author":"Nana",
   "remove-comment-html":true,
-  "target":"https://stackoverflow.com",
+  "target":"https://www.tribunnews.com/seleb/gosipi",
   "name-folder-sitemap":"sitemap",
   "element-remove":[
     "script",
@@ -20,20 +20,20 @@
   ],
   "costom-element-remove":[
     {
-      "target":"stackoverflow.com",
+      "target":"www.tribunnews.com/seleb/gosipi",
       "element-remove-selector":[
         ".js-dismissable-hero",
         ".lazy-loading"
       ],
       "replace-string":[
         {
-          "target":"https://stackoverflow.com",
+          "target":"https://www.tribunnews.com/seleb/gosipi",
           "replace":"${nameWeb}"
         }
       ]
     },
     {
-      "target":"m.tribunnews.com",
+      "target":"www.tribunnews.com/seleb/gosipi",
       "element-remove-selector":[
         ".baca",
         ".op-interactive"
@@ -201,7 +201,7 @@
         },
         {
           "name-attribute":"data-ad-client",
-          "value-attribute":"ca-pub-2860170400056904"
+          "value-attribute":"ca-pub-2860170400056904123"
         }
       ],
       "data-innerHTML":"",
